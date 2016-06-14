@@ -5,10 +5,41 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="getPic.js"></script>
     <link rel="stylesheet" type="text/css" href="master.css">
-      
-    </script>
+    <style>
+    #exitvali {
+        display: inline-block;
+        float: right
+    }
+    
+    .validate {
+        bottom: 0px;
+        margin-left: -8px;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: inline-block;
+    }
+        
+        .hidevali[type="checkbox"]:checked {
+         
+        }
+    </style>
+    <!--end code-->
   </head>
   <body>
+    <div id="Check-Code">
+<div class="validate" style="z-index: 1">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://i67.tinypic.com/2itk0vt.png" alt="html"></a>
+    <!--&nbsp;&nbsp;-->
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="http://i66.tinypic.com/5k0iag.png" alt="css"></a>
+    <a href='#'><img src="http://i64.tinypic.com/292vbqu.png" alt="download">download files</a>
+    <form id="exitvali">
+        <input type="checkbox" class="hidevali">
+        <br>
+    </form>
+</div>
+</div>
+
     <div class="top">
     <div class="welcome">
    <h1>get your pictures</h1>
